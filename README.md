@@ -311,3 +311,7 @@ So the context configuration at **CATALINA_HOME\conf\Catalina\localhost\oxalis.x
 </Context>
 ```
 
+4. Step 3. should be done for all Oxalis instances at Tomcat
+
+Don't forget to add `<Loader delegate="true"/>` to all Oxalis instances on your Tomcat, not only oxalis.xml but e.g. oxalis2.xml, oxalis3.xml etc...
+
