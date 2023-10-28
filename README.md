@@ -1,8 +1,8 @@
-# Analysis of possibility to run multiple instances of Nemhandel eDelivery Oxalis on the same tomcat
+# How to run multiple instances of Nemhandel eDelivery Oxalis on the same tomcat
 
 ## Introduction
 
-In some situations it is required to run several instances of Oxalis NemHandel Reference Implementations on the same Tomcat, e.g. TEST and PROD instance or PROD Nemhandel and PROD Peppol. In general, it is not recommended, as Tomcat starts to serve requests only after ALL instances are initialized, also as sharing memory between different instances with different workload and requirements is also not good.
+In some situations it is required to run several instances of [Oxalis NemHandel Reference Implementations](https://rep.erst.dk/git/openebusiness/nemhandeledelivery) on the same Tomcat, e.g. TEST and PROD instance or PROD Nemhandel and PROD Peppol. In general, it is not recommended, as Tomcat starts to serve requests only after ALL instances are initialized, also as sharing memory between different instances with different workload and requirements is also not good.
 
 ## Issue
 
